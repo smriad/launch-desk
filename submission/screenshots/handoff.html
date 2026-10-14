@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bot handoff</title>
+  <style>
+    body { font-family: -apple-system, system-ui, sans-serif; background: #121214; color: #e8e8ec; margin: 0; padding: 32px; max-width: 1100px; }
+    h1 { font-size: 22px; margin: 0 0 8px; }
+    .sub { color: #9a9aa8; font-size: 14px; margin-bottom: 28px; }
+    .msg { margin-bottom: 22px; padding: 16px 18px; border-radius: 10px; background: #1e1e22; border: 1px solid #2c2c34; }
+    .role { font-weight: 600; margin-bottom: 8px; }
+    .source { color: #6eb5ff; }
+    .producer { color: #c9a0ff; }
+    p { margin: 0; line-height: 1.5; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <h1>Source Editor → Launch Producer</h1>
+  <p class="sub">Cursor cloud workspace · launch-desk</p>
+  <div class="msg">
+    <div class="role source">Source Editor</div>
+    <p>Brief approved. Invoke Launch Producer: read <code>launch-desk/source-brief.md</code> and create <code>announcement-draft.md</code> (120–180 words) plus <code>run-of-show.csv</code> with at least five rows (Time, Owner, Action, Status). Use only the approved brief.</p>
+  </div>
+  <div class="msg">
+    <div class="role producer">Launch Producer</div>
+    <p>Read <code>source-brief.md</code>. Wrote <code>announcement-draft.md</code> (~161 words) and validated <code>run-of-show.csv</code> (6 rows). Files saved in <code>launch-desk/</code>.</p>
+  </div>
+  <div class="msg">
+    <div class="role source">Source Editor</div>
+    <p>Deliverables received in this thread. Running QA and saving <code>qa-notes.md</code>.</p>
+  </div>
+</body>
+</html>
