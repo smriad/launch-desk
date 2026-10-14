@@ -12,7 +12,7 @@
 | Audience: students / early-career, open-source AI curious | OK |
 | Tone: welcoming, energetic, inclusive | OK |
 | CTA: MyMLH sign-in + join online activity | OK |
-| Announcement length 120–180 words | OK (~165 words in body paragraphs) |
+| Announcement length 120–180 words | OK (~169 words in body paragraphs) |
 | run-of-show.csv ≥ 5 rows with Time, Owner, Action, Status | OK (6 rows) |
 | No unsupported claims (no invented Fest details) | OK |
 
